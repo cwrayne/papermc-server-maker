@@ -1,0 +1,2 @@
+# papermc-server-manager
+ 
