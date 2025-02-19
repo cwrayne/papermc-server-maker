@@ -41,11 +41,11 @@ def main():
         sys.exit(1)
 
     # URL of the ZIP file to download
-    url = "https://dashbenton.com/papermcdownloader/downloadthis.zip"
+    url = "https://dashbenton.com/papermcdownloader/1.1.0.zip"
 
     # Define file and folder paths
     temp_dir = tempfile.gettempdir()
-    zip_filename = os.path.join(temp_dir, "downloadthis.zip")
+    zip_filename = os.path.join(temp_dir, "1.1.0.zip")
     target_directory = r"C:\Program Files\PaperMCServerMaker"
     app_exe = os.path.join(target_directory, "app.exe")
     shortcut_path = r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PaperMC Server Maker.lnk"
